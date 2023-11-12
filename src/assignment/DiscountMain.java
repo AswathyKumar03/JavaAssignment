@@ -5,7 +5,6 @@ import java.util.Scanner;
 public class DiscountMain {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		DiscountCoupon discount = new DiscountCoupon();
 		
 		Scanner sc = new Scanner (System.in);
