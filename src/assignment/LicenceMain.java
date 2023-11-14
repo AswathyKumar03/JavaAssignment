@@ -10,6 +10,8 @@ public class LicenceMain {
 		Scanner sc = new Scanner (System.in);
 		System.out.println("Enter the age");
 		licence.age = sc.nextInt();
+		
+		//method for age validation
 		licence.ageValidator();
 		if (licence.age >= 16) {
 			System.out.println("Choose the number corresponding to your current status"+ "\n1.Doesn't have a Licence"+" "
