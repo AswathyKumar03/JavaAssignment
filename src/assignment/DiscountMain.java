@@ -11,15 +11,16 @@ public class DiscountMain {
 		
 		System.out.println("Enter the Price of the product");
 		
-		discount.productPrice = sc.nextInt();
+		discount.productPrice = sc.nextFloat();
 		
-		System.out.println("Select the PromoCode which you have"+"\n1. Promo5"+
+		System.out.println("Enter the number corresponding to the promocode:-"+"\n1. Promo5"+
 		"\n2.Promo10"+"\n3.Promo20"+"\n4.No PromoCode");
 		
 		discount.promoCode = sc.nextInt();
 		
 		discount.discountCalculator();
+		sc.close();
 		
 	}
-
+	
 }
