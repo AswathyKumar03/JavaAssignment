@@ -8,6 +8,9 @@ public class LoginMain {
 		
 		Login loginObject =  new Login();
 		Scanner sc = new Scanner(System.in);
+		//Accepts the Username and Password from the User and checks it using Login class.
+		//if it is correct then it will exit the loop otherwise it will try three times.
+		//if it reaches three times then it will lock the Account . 
 		for (int i = 0; i < 3; i++) {
 			System.out.println("Enter your UserID");
 			loginObject.userName = sc.nextLine();
