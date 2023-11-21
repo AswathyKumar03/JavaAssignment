@@ -2,8 +2,8 @@ package loop;
 
 public class WaterWhile {
 
-	int bucketCapacity = 10;
-	int tankCapacity = 100;
+	int bucketCapacity;
+	int tankCapacity;
 	float currentTankLevel;
 	float currentBucketLevel;
 
@@ -20,7 +20,7 @@ public class WaterWhile {
 				System.out.println("Tank can hold " + (tankCapacity - currentTankLevel));	
 			}
 		} else {
-			System.out.println("Tank will overflow..Only the Tank can hold " +
+			System.out.println("Tank will overflow..Now the Tank can only hold " +
 		    (tankCapacity - currentTankLevel)+ "  L.\n So you can Add "
             +(tankCapacity - currentTankLevel)+" L of water");
 		}

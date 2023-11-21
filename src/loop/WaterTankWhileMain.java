@@ -6,6 +6,8 @@ public class WaterTankWhileMain {
 
 	public static void main(String[] args) {
 		WaterWhile waterObject = new WaterWhile();
+		waterObject.tankCapacity = 100;
+		waterObject.bucketCapacity = 10;
 		Scanner sc = new Scanner(System.in);
 		// Accepts the bucket level from user and calls a method to add it to the tank level
 		// until the tank becomes full.
