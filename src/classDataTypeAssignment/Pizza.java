@@ -21,7 +21,8 @@ public class Pizza {
 		this.extraCheesePrize = extraCheesePrize;
 	}
 	
-	
+	//This method check the user topping input and extra cheese input.
+	//if the user input is valid then invoke the calculateBill method.
 	
 	int validateToppingAndCheese(String size) {
 		
@@ -47,7 +48,8 @@ public class Pizza {
 	
 	
 	
-	
+	// This method calculate the final bill of the ordered pizza on the 
+	// basis of the user input.
 	
 	int calculateBill(String topping,String cheese) {
 		
