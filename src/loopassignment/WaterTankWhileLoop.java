@@ -10,13 +10,15 @@ public class WaterTankWhileLoop {
 	float currentBucketLevel;
 	
 	Scanner sc = new Scanner(System.in);
+	/** Accepts the bucket level from user and add it to the current tank level
+	    until the tank becomes full. Checks the tank capacity and add the water to the tank if it reaches the 
+	    limit then it will show the message*/
 	void tankFilling() {
 		while (currentTankLevel < tankCapacity) {
 			System.out.println("Enter the quantity of water in Litre");
 			currentBucketLevel = sc.nextFloat();
 			if (currentBucketLevel <=  bucketCapacity) {
-				float temp = currentTankLevel + currentBucketLevel;
-				if (temp <= tankCapacity) {
+				if ((currentTankLevel + currentBucketLevel) <= tankCapacity) {
 					currentTankLevel += currentBucketLevel;
 					System.out.println("Current Tank level is " + currentTankLevel +"L");
 					if(tankCapacity == currentTankLevel) {

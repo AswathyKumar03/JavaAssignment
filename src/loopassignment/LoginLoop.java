@@ -10,6 +10,11 @@ public class LoginLoop {
 	int maxAttempt;
 	Scanner sc = new Scanner (System.in);
 	
+	/** Accepts the Username and Password from the User and checks it using Login class.
+	And compares the userID  and password with User provided Username and password
+	if it is correct then it will exit the loop otherwise it will try three times.
+	if it reaches three times then it will lock the Account . */
+	
 	void loginCheck() {
 		for(int i = 0;i<maxAttempt;i++) {
 			System.out.println("Enter your UserId");

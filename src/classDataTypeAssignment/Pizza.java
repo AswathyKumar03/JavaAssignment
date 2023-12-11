@@ -27,7 +27,7 @@ public class Pizza {
 	int validateToppingAndCheese(String size) {
 		
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Do you want additional pepperoni topping");
+		System.out.println("Do you want additional pepperoni topping(yes/no)");
 		String topping = sc.nextLine();
 		if((topping.equalsIgnoreCase("yes"))||(topping.equalsIgnoreCase("no"))){
 			System.out.println("Do you want extra Cheese");

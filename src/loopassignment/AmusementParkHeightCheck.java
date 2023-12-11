@@ -9,6 +9,10 @@ public class AmusementParkHeightCheck {
 	int maxHeight;
 	int rideCapacity;
 	
+	/** this method is checked the height of the user ,if  the height is between 90-200 then  .
+		permission granted .Otherwise it will give the appropriate message 
+		to the user and increase the ridecapacity by 1.*/
+	
 	void heightCheck() {
 		for(int i = 1;i<=rideCapacity; i++) {
 			Scanner sc = new Scanner(System.in);

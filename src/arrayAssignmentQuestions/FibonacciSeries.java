@@ -12,7 +12,7 @@ public class FibonacciSeries {
 		int number2 = 1;
 		int nextNumber =0;
 		String series = "0  1";
-		//System.out.print("Fibonacci Series is : 0  1"  );
+		
 		while(nextNumber <= limit) {
 			nextNumber = number1 + number2;
 			if(nextNumber > limit) {

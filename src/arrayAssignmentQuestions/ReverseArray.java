@@ -8,7 +8,7 @@ import java.util.Arrays;
 import java.util.Scanner;
 
 public class ReverseArray {
-	int[] userArray = new int[6];
+	int[] userArray = new int[5];
 	Scanner sc = new Scanner(System.in);
 
 	void populateArray() {
@@ -23,7 +23,7 @@ public class ReverseArray {
 	int[] reverse() {
 		
 		int j = userArray.length-1;
-		for (int i = 0; i < userArray.length / 2; i++) {
+		for (int i = 0; i < userArray.length / 2; i++) {		//12  34  56  78  90
 			int temp = userArray[i];
 			userArray[i] = userArray[j];
 			userArray[j] = temp;
